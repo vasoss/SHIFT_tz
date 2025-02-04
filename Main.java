@@ -143,6 +143,7 @@ public class Main {
         if(!allInts.isEmpty()){
             System.out.println("Целые числа:");
             Collections.sort(allInts);
+            System.out.println("    Кол-во целых чисел: " + allInts.size());
             System.out.println("    Минимальное целое число: " + allInts.get(0));
             System.out.println("    Максимальное целое число: " + allInts.get(allInts.size()-1));
             BigInteger sum = new BigInteger("0");
@@ -160,6 +161,7 @@ public class Main {
         }
         if(!allFloats.isEmpty()){
             System.out.println("Вещественные числа:");
+            System.out.println("    Кол-во вещественных чисел: " + allFloats.size());
             Collections.sort(allFloats);
             System.out.println("    Минимальное вещественное число: " + allFloats.get(0));
             System.out.println("    Максимальное вещественное число: " + allFloats.get(allFloats.size()-1));
